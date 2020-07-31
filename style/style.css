@@ -1,0 +1,95 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(a.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+.logo-chat{
+    display: block;
+    margin:auto;
+    width:100px;
+    height:100px;
+    transition: all 0.9s;
+}
+.logo-chat:hover{
+    transform: translateY(10px);
+}
+.container{
+width:65%;
+height: 77vh;
+background: url(c.jpg) no-repeat center center fixed;
+background-size: cover;
+
+border:2px solid black;
+border-radius: 8px;
+display: block;
+margin: auto;
+overflow-y: auto;
+}
+.label{
+text-align: center;
+display: block;
+margin: auto;
+color:white;
+background-color: black;
+
+}
+
+
+.message{
+    padding: 11px 5px;
+    margin: 9px 19px;
+    border:2px solid black;
+    background:#50514F;
+    border-radius: 5px;
+}
+
+.right{
+    margin: 20px;
+    float: right;
+    clear: both;
+    color:white;
+
+}
+
+.left{
+    margin: 25px;
+    float: left;
+    clear: both;
+    color:white;
+}
+
+.send-message{
+    text-align: center;
+    display: block;
+    margin: auto;
+
+}
+.input-send{
+    width:52%;
+    height: 40px;
+    background:floralwhite;
+    border-radius: 5px;
+    color: black;
+    
+
+}
+.btn{
+padding: 12px 15px;
+height:40px;
+background-color: black;
+color: floralwhite;
+
+}
+.btn:hover{
+    color:black;
+    background-color: floralwhite;
+    cursor: pointer;
+}
+
